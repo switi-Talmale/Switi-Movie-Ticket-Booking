@@ -16,11 +16,7 @@
 	 <div id="header">
 <div class="row-1">
 <div class="fleft"><a href="index.jsp">Cinema <span style="color:red">World</span></a></div>
-          <ul>    
-            <li><a href="index.jsp"><img src="images/icon1-act.gif" alt="Home Page" /></a></li>
-            <li><a href="contact-us.html"><img src="images/icon2-act.gif" alt="Gmail" /></a></li>
-            <li><a href="about-us.html"><img src="images/icon3-act.gif" alt="About-us" /></a></li>
-          </ul>
+          
         </div>          
     </div>
         <body id="page1">

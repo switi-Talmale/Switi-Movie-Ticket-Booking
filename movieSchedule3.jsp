@@ -22,11 +22,7 @@
 <div id="header">
 <div class="row-1">
 <div class="fleft"><a href="index.jsp">Cinema <span style="color:red">World</span></a></div>
-          <ul>    
-            <li><a href="index.jsp"><img src="images/icon1-act.gif" alt="Home Page" /></a></li>
-            <li><a href="contact-us.html"><img src="images/icon2-act.gif" alt="Gmail" /></a></li>
-            <li><a href="about-us.html"><img src="images/icon3-act.gif" alt="About-us" /></a></li>
-          </ul>
+          
         </div>          
     </div>
         <body id="page1">
@@ -55,7 +51,7 @@
                                 <tr><td><a href="UpdateInfo.jsp">Update Information</a></td></tr>
                                 <tr><td><a href="TicketCost.jsp">Ticket Cost</a></td></tr>
                                 <tr><td><a href="bookticketmain.jsp">Book Ticket</a></td></tr>
-                                <tr><td><a href="printTicket.jsp">Print e-Ticket</a></td></tr>
+                                
 				<tr><td><a href="movieSchedule3.jsp">Movie Schedule</a></td></tr>
                                 <tr><td><a href="CustomerLogin.jsp">Log Out</a></td></tr>
                         </table></td>

@@ -21,11 +21,7 @@
 <div id="header">
 <div class="row-1">
 <div class="fleft"><a href="index.jsp">Cinema <span style="color:red">World</span></a></div>
-          <ul>    
-            <li><a href="index.jsp"><img src="images/icon1-act.gif" alt="Home Page" /></a></li>
-            <li><a href="contact-us.html"><img src="images/icon2-act.gif" alt="Gmail" /></a></li>
-            <li><a href="about-us.html"><img src="images/icon3-act.gif" alt="About-us" /></a></li>
-          </ul>
+         
         </div>          
     </div>
         <body id="page1">
@@ -53,10 +49,10 @@
 			<table id="navigation"  width="230">
 				<tr><td><a href="CustomerMain.jsp">Customer</a></td></tr>
                                 <tr><td><a href="urTranscationcust.jsp">Transaction History</a></td></tr>
-                                <tr><td><a href="UpdateInfo.jsp">Update Information</a></td></tr>
+                             
                                 <tr><td><a href="TicketCost.jsp">Ticket Cost</a></td></tr>
                                 <tr><td><a href="bookticketmain.jsp">Book Ticket</a></td></tr>
-                                <tr><td><a href="printTicket.jsp">Print e-Ticket</a></td></tr>
+                               
 				<tr><td><a href="movieSchedule3.jsp">Movie Schedule</a></td></tr>
                                 <tr><td><a href="CustomerLogin.jsp">Log Out</a></td></tr>
                         </table></td>
@@ -86,19 +82,17 @@
     <option value="250">First Class</option>
     <option value="180">Second Class</option>
     <option value="300">Balcony</option>
+    
   </select>
                 <br/>
                  <br/>
-                 <label for="name"><br/>
-                 Class :<br/><br/>
-                </label>
-             <select name="mode">
-    <option value="Online">Online</option>
-    <option value="hand">hand</option>
-  </select>
-                 <br/>
-                <br/><input name="imageField" type="submit"  class="LOGIN" id="imageField" value="Procced"  />
-               <p>&nbsp;</p>
+                
+    <Button><a href="https://p-y.tm/BaI-gdw">PayNow</a></Button>
+    
+   </select>
+    <br/>
+                
+               
           </form>
                      </td></tr>   
                       </table>

@@ -31,21 +31,18 @@
 		{ 
                  int id=0; 
                  if(rs.last()){ 
-                 id =rs.getInt(1)+6; 
+                 id =rs.getInt(1)+5; 
                   Statement stmt1 = connection.createStatement();
                  String sql2="SELECT * FROM custtranscation where custname='"+custname +"'";
                 ResultSet rs1=stmt1.executeQuery(sql2);
                 if(rs1.next()==true){
                 no1=rs1.getInt(3)+1;//number of movies
-                mobile=rs1.getString(8);
-                pin=rs1.getString(9);
-                 //int userId = Integer.parseInt(request.getParameter("userid"));
+                mobile=rs1.getString(1);
+                pin=rs1.getString(2);
+                
                 }
                
-                //mtop=money to pay
-                //noft =number of Ticket
-                //money to pay=number of Ticket*ticket Price(different for different class)
-                
+               
                 int class2=Integer.parseInt(class1);
                 int noft2=Integer.parseInt(noft);
                 int mtop=class2*noft2;
